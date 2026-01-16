@@ -1,0 +1,9 @@
+{
+  "terminal.external.windowsExec": "powershell.exe",
+  "terminal.external.windowsArgs": [
+    "-NoExit",
+    "-Command",
+    "Start-Process powershell -Verb RunAs"
+  ],
+  "editor.fontSize": 16
+}
