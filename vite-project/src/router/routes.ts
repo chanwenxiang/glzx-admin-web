@@ -3,14 +3,14 @@ export const constantRoute = [
     {
         //登录页面
         name: 'login',
-        path: '/login',
+        path: '/',
         component: () => import('@/views/login/index.vue')
 
     },
     {
         //登录成功页面
         name: 'lagout',
-        path: '/',
+        path: '/home',
         component: () => import('@/views/home/index.vue')
     },
     {

@@ -6,6 +6,7 @@ import zhCn from 'element-plus/es/locale/lang/zh-cn'
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 import "@/styles/index.scss"
 import router from './router'
+import pinia from './store'
 
 const app = createApp(App);
 app.use(ElementPlus, {
@@ -18,4 +19,5 @@ for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
 }
 
 app.use(router);
+app.use(pinia);
 app.mount('#app')
